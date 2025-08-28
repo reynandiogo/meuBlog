@@ -1,0 +1,61 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}  
+
+@font-face {
+    font-family: 'evogria-italic';
+    src: url(../../../fontes/Evogria\ Italic.otf);
+}
+
+@font-face {
+    font-family: 'evogria';
+    src: url(../../../fontes/Evogria.otf);
+}
+
+/* ---------- VARIÁVEIS ---------- */
+:root {
+    --cor0: rgb(0, 81, 255);
+    --cor1: rgb(0, 53, 167);
+    --cor2: rgb(0, 36, 112);
+    --cor3: rgb(0, 16, 49);
+    --cor4: rgb(224, 0, 0);
+    --cor5: white;
+
+    --fonte-padrao: "Poppins", Arial, Verdana, Helvetica, sans-serif;
+    --fonte-evogria: "evogria";
+    --fonte-evogria2: 'evogria-italic';
+}
+
+/* ---------- MAIN ---------- */
+
+/*_______________________________________________________________________________________________________________________*/
+
+main {
+    width: 100%;
+    background: url(../../../imgs/imgtestmobile.jpg) aqua;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    min-height: 100vh;
+}
+
+/*configurações gerais da lista de artigos*/
+
+article{
+
+    min-height: 1000px;
+    width: 80%;
+    background-color: var(--cor5);
+    border: 2px solid var(--cor0);
+    border-top: none;
+    margin-bottom: 50px;
+
+}    

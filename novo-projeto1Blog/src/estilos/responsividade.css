@@ -1,0 +1,86 @@
+/* Small tablets */
+@media (min-width: 600px)  {
+
+   
+
+    #listItems a{
+
+        flex-flow: row nowrap;
+        /* border: 1px solid rgb(123, 255, 0);  */
+     
+    }
+
+    #listItems .imgli{
+
+        aspect-ratio: 8 / 4.5;
+        margin: 0px;
+        width: 500px;
+        position: relative;
+
+    }
+
+
+    #listItems .imgsli{
+
+        position: absolute;
+        object-fit: cover;
+
+    }
+
+    #listItems .categ-img-li{
+
+        font-size: 13px;
+        
+    }
+
+    /* #listItems .textli{
+
+        
+        /* border: 1px solid var(--cor3); 
+
+    } */
+
+    #listItems .datali{
+
+        margin: 6px 3px 6px 3px;
+        font-size: 1.2vw;
+
+    }
+
+    #listItems .titleli{
+
+        color: var(--cor0);
+        margin: 6px 3px 6px 3px;
+        font-weight: bolder;
+        font-size: 2.4vw;
+
+    }
+
+    #listItems .metatag{
+
+        /* border: 1px solid yellow;  */
+        font-size: 1vw;
+        gap: 9px;
+       
+    }
+
+    #listItems .tags{
+
+        margin: 0px 0px 2px 3px;
+
+    }
+
+
+    #cx-btn-carregar{
+
+        margin-top: 40px;
+        width: auto;
+        height: auto;
+        font-size: 1.9vw;
+        border-radius: 7px;
+        letter-spacing: 1px;
+        padding: 10px;
+
+    }
+
+}
